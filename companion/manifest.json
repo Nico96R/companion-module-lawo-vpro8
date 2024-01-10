@@ -1,0 +1,26 @@
+{
+	"id": "lawo-vpro8",
+	"name": "lawo-vpro8",
+	"shortname": "vpro8",
+	"description": "vPRO__8 module for companion based on EmBER+",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-lawo-vpro8.git",
+	"bugs": "https://github.com/bitfocus/companion-module-lawo-vpro8/issues",
+	"maintainers": [
+		{
+			"name": "Nicolas Rasor",
+			"email": "nicolas.rasor@gmx.de"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/index.js"
+	},
+	"manufacturer": "LAWO",
+	"products": ["vpro8"],
+	"keywords": ["lawo", "vpro8", "ember", "emberplus", "ember+"]
+}
